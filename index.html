@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="img/visual-studio-code-icon.png" type="image/png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header id="home" class="header">
+      <div class="header__top">
+        <div class="container">
+          <div class="header__top-inner">
+            <div class="header__name">Rodion</div>
+            <nav class="header__nav">
+              <ul class="header__box-item">
+                <li class="header__item"><a href="#home" class="header__link header__item--active">Главная</a></li>
+                <li class="header__item"><a href="#about" class="header__link">Обо мне</a></li>
+                <li class="header__item"><a href="#skills" class="header__link">Навыки</a></li>
+                <li class="header__item"><a href="#qualification" class="header__link">Квалификация</a></li>
+                <li class="header__item"><a href="#portfolio" class="header__link">Портфолио</a></li>
+                <li class="header__item"><a href="#contact" class="header__link">Контакты</a></li>
+                <li data-theme="theme" class="header__item">
+                  <a data-icon="theme-icon" href="#"><i class="far fa-moon"></i></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-bar">&nbsp;</div>
+      <div class="scroll-progress">&nbsp;</div>
+      <div class="container">
+        <div class="header__bottom">
+          <div class="header__social-item">
+            <div class="header__social-link">
+              <a target="_blank" href="https://github.com/NenadoPL1Z"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="header__social-link">
+              <a target="_blank" href="https://vk.com/wwk_1"><i class="fab fa-vk"></i></a>
+            </div>
+            <div class="header__social-link">
+              <a target="_blank" href="https://t.me/w1wk1"><i class="fab fa-telegram-plane"></i></a>
+            </div>
+          </div>
+          <div class="header__text">
+            <h1 class="header__title">загрузка...</h1>
+            <div class="header__subtitle">Junior Frontend developer</div>
+            <p class="header__desc"><span class="html">HTML5,</span> <span class="css">CSS3,</span> <span class="js">javaScript,</span> <span class="react">React</span> and more...</p>
+            <a href="#contact" class="button">Мои Контакты&nbsp; <i class="far fa-hand-point-left"></i></a>
+            <div class="header__scroll scroll">Scroll Down <i class="fas fa-arrow-down"></i></div>
+          </div>
+          <div class="header__block-img">
+            <img src="img/3.png" alt="My photo" class="header__img" />
+          </div>
+        </div>
+      </div>
+      <div class="header__burger">
+        <div class="header__burger-nav">
+          <div class="header__name">Rodion</div>
+          <ul class="header__burger-items">
+            <li data-theme="theme" class="header__item">
+              <a data-icon="theme-icon" href="#"><i class="far fa-moon"></i></a>
+            </li>
+            <li id="burger-content" class="header__item">
+              <i id="burger-ico" class="fas fa-bars"></i>
+            </li>
+          </ul>
+        </div>
+        <div class="header__burger-content">
+          <div class="header__burger-content-items">
+            <div data-item="home" class="header__burger-box">
+              <div data-item="home" class="header__burger-icon"><i data-item="home" class="fas fa-home"></i></div>
+              <div data-item="home" class="header__burger-name">Главная</div>
+            </div>
+            <div data-item="about" class="header__burger-box">
+              <div data-item="about" class="header__burger-icon"><i data-item="about" class="fas fa-user"></i></div>
+              <div data-item="about" class="header__burger-name">Обо мне</div>
+            </div>
+            <div data-item="skills" class="header__burger-box">
+              <div data-item="skills" class="header__burger-icon"><i data-item="skills" class="fas fa-clipboard-list"></i></div>
+              <div data-item="skills" class="header__burger-name">Навыки</div>
+            </div>
+            <div data-item="qualification" class="header__burger-box">
+              <div data-item="qualification" class="header__burger-icon"><i data-item="qualification" class="fas fa-book"></i></div>
+              <div data-item="qualification" class="header__burger-name">Учёба</div>
+            </div>
+            <div data-item="portfolio" class="header__burger-box">
+              <div data-item="portfolio" class="header__burger-icon"><i data-item="portfolio" class="fas fa-image"></i></div>
+              <div data-item="portfolio" class="header__burger-name">Портфолио</div>
+            </div>
+            <div data-item="contact" class="header__burger-box">
+              <div data-item="contact" class="header__burger-icon">
+                <i data-item="contact" class="fas fa-address-book"></i>
+              </div>
+              <div data-item="contact" class="header__burger-content-name">Контакты</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <section id="about" class="repetitive-block">
+          <h2 class="main-title">Обо мне</h2>
+          <h4 class="main-subtitle">подробная информация</h4>
+          <div class="about">
+            <img class="about__img" src="img/me2.jpg" alt="About-Photo" />
+            <div class="about__text">
+              <p class="about__desc">
+                Имя: Родион<br />
+                Возраст: 18<br />
+                Город: Челябинск <br />
+                Веб разработчик, с хорошими знаниями.<br />
+                Каждый день развиваюсь в сфере Front-end<br />
+              </p>
+              <div class="about__experience">
+                <div class="about__experience-item">
+                  <div class="about__experience-years">8+</div>
+                  <div class="about__experience-text">Месяцев <br />учёбы</div>
+                </div>
+                <div class="about__experience-item">
+                  <div class="about__experience-years">12</div>
+                  <div class="about__experience-text">
+                    Выполненых<br />
+                    проектов
+                  </div>
+                </div>
+              </div>
+              <div class="about__href">
+                <a href="file/cv.docx" class="button about__button" download>Скачать CV <i class="fas fa-download"></i></a>
+                <a href="https://drive.google.com/file/d/11TxlhNBOniu4avljnFh_akil3r_88GbA/view?usp=sharing" class="button about__button" target="_blank">Онлайн CV <i class="fas fa-download"></i></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="skills" class="repetitive-block opacity">
+          <h2 class="main-title">Навыки</h2>
+          <h4 class="main-subtitle">Мой технический уровень</h4>
+          <div class="skills">
+            <div class="skills__block">
+              <div class="skills__container">
+                <div class="skills__icon html"><i class="fab fa-html5"></i></div>
+                <div class="skills__text html">HTML</div>
+                <div class="skills__number">0%</div>
+              </div>
+              <div class="skills__progress-1">
+                <div class="skills__progress--active"></div>
+              </div>
+            </div>
+            <div class="skills__block">
+              <div class="skills__container">
+                <div class="skills__icon css"><i class="fab fa-css3"></i></div>
+                <div class="skills__text css">CSS</div>
+                <div class="skills__number">0%</div>
+              </div>
+              <div class="skills__progress-2">
+                <div class="skills__progress--active"></div>
+              </div>
+            </div>
+            <div class="skills__block">
+              <div class="skills__container">
+                <div class="skills__icon js"><i class="fab fa-js"></i></div>
+                <div class="skills__text js">javaScript</div>
+                <div class="skills__number">0%</div>
+              </div>
+              <div class="skills__progress-3">
+                <div class="skills__progress--active"></div>
+              </div>
+            </div>
+            <div class="skills__block">
+              <div class="skills__container">
+                <div class="skills__icon react"><i class="fab fa-react"></i></div>
+                <div class="skills__text react">React</div>
+                <div class="skills__number">0%</div>
+              </div>
+              <div class="skills__progress-3">
+                <div class="skills__progress--active"></div>
+              </div>
+            </div>
+            <h4 class="main-subtitle">Дополнительно</h4>
+            <div class="skills__slider">
+              <button type="button" class="skills__slider-prev disabled" disabled><i class="fas fa-arrow-left"></i></button>
+              <div class="skills__slider-container">
+                <div class="skills__slider-inner">
+                  <img src="img/sass.png" alt="sass" class="skills__slider-item" />
+                  <img src="img/bootstrap.png" alt="bt4/5" class="skills__slider-item" />
+                  <img src="img/webpack.png" alt="webpack" class="skills__slider-item" />
+                  <img src="img/git.png" alt="git" class="skills__slider-item" />
+                  <img src="img/jQuery.png" alt="jQuery" class="skills__slider-item" />
+                  <img src="img/styled-components.png" alt="styled-components" class="skills__slider-item" />
+                  <img src="img/figma.png" alt="figma" class="skills__slider-item" />
+                  <img src="img/ph.png" alt="photoshop" class="skills__slider-item" />
+                </div>
+              </div>
+              <button type="button" class="skills__slider-next"><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </section>
+        <section id="qualification" class="repetitive-block opacity">
+          <h2 class="main-title">Квалификация</h2>
+          <h4 class="main-subtitle">Где учился</h4>
+          <div class="qualification">
+            <div class="qualification__title"><i class="fas fa-graduation-cap"></i> Образование</div>
+            <div class="qualification__content">
+              <div class="qualification__circle">
+                <div class="qualification__inf-block right">
+                  <div class="qualification__name">
+                    <a target="_blank" href="https://preco.ru/">Preco<br />College</a>
+                  </div>
+                  <div class="qualification__location">Челябинск</div>
+                  <div class="qualification__date"><i class="fas fa-calendar-alt"></i> 2019-2023</div>
+                </div>
+              </div>
+              <div class="qualification__circle">
+                <div class="qualification__inf-block left">
+                  <div class="qualification__name"><a target="_blank" href="https://stepik.org/cert/832729">Python</a></div>
+                  <div class="qualification__date"><i class="fas fa-calendar-alt"></i> 2020</div>
+                </div>
+              </div>
+              <div class="qualification__circle">
+                <div class="qualification__inf-block right">
+                  <div class="qualification__name"><a target="_blank" href="https://www.udemy.com/certificate/UC-9b447820-f231-4322-a2f5-d73e3990c482/">HTM/CSS JS/REACT</a></div>
+                  <div class="qualification__date"><i class="fas fa-calendar-alt"></i> 2021</div>
+                </div>
+              </div>
+              <div class="qualification__circle-end">
+                <div class="qualification__inf-block left">
+                  <div class="qualification__name">Further more..</div>
+                  <div class="qualification__date"><i class="fas fa-calendar-alt"></i> 2020 - <i class="fas fa-infinity"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="portfolio" class="repetitive-block">
+          <h2 class="main-title">Портфолио</h2>
+          <h4 class="main-subtitle">Мои пет проекты</h4>
+          <div class="portfolio">
+            <div class="portfolio__slider">
+              <button type="button" class="portfolio__prev"><i class="fas fa-chevron-left"></i></button>
+              <div class="portfolio__content animate__animated">
+                <img class="portfolio__img" src="img/GOT.jpg" alt="slider-1" />
+                <div class="portfolio__text">
+                  <div class="portfolio__title">React Game of Thrones API</div>
+                  <p class="portfolio__desc">
+                    SPA в которой все данные беруться из API<br />
+                    Использованные библиотеки: styled-components<br />
+                    reactstrap, bootstrap, react-route
+                  </p>
+                  <a data-sliderBtn="button-slider" target="_blank" href="https://gotapiwwk.netlify.app/" class="button">Demo &nbsp;&nbsp;<i class="fas fa-arrow-right"></i></a>
+                </div>
+              </div>
+              <div class="portfolio__content none animate__animated">
+                <img class="portfolio__img" src="img/Todo.jpg" alt="slider-1" />
+                <div class="portfolio__text">
+                  <div class="portfolio__title">React Todo</div>
+                  <p class="portfolio__desc">
+                    Tуду лист сделанный полностью на React<br />
+                    C использованием библиотек reactstrap<br />
+                    styled-components
+                  </p>
+                  <a data-sliderBtn="button-slider" target="_blank" href="https://todoreactwwk.netlify.app/" class="button">Demo &nbsp;&nbsp;<i class="fas fa-arrow-right"></i></a>
+                </div>
+              </div>
+              <div class="portfolio__content none animate__animated">
+                <img class="portfolio__img" src="img/AimGame.png" alt="slider-1" />
+                <div class="portfolio__text">
+                  <div class="portfolio__title">AIM Game</div>
+                  <p class="portfolio__desc">
+                    Сайт сделанный на чистом HTML/CSS/JS<br />
+                    Интерактивная игра для тренировки точности<br />
+                    и реакции
+                  </p>
+                  <a data-sliderBtn="button-slider" target="_blank" href="https://aimgamewwk.netlify.app/" class="button">Demo &nbsp;&nbsp;<i class="fas fa-arrow-right"></i></a>
+                </div>
+              </div>
+              <div class="portfolio__content none animate__animated">
+                <img class="portfolio__img" src="img/Git-IMG.png" alt="slider-1" />
+                <div class="portfolio__text">
+                  <div class="portfolio__title">Github</div>
+                  <p class="portfolio__desc">Больше на Github</p>
+                  <a data-sliderBtn="button-slider" target="_blank" href="https://github.com/NenadoPL1Z" class="button">Github &nbsp;&nbsp;<i class="fas fa-arrow-right"></i></a>
+                </div>
+              </div>
+              <button type="button" class="portfolio__next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            <div class="portfolio__nav">
+              <div data-id="0" class="portfolio__dot portfolio__dot--active"></div>
+              <div data-id="1" class="portfolio__dot"></div>
+              <div data-id="2" class="portfolio__dot"></div>
+              <div data-id="3" class="portfolio__dot"></div>
+            </div>
+          </div>
+        </section>
+        <!-- Встпвить доп блок вот сюда -->
+        <section id="contact" class="repetitive-block">
+          <h2 class="main-title">Контакты</h2>
+          <h4 class="main-subtitle">&nbsp;</h4>
+          <div class="contact">
+            <div class="contact__content-block">
+              <div class="contact__item">
+                <div class="contact__icon"><i class="fas fa-phone-alt"></i></div>
+                <div class="contact__name">Телефон</div>
+              </div>
+              <a href="tel:89511223281" class="contact__inf">+7(951)-122-32-81</a>
+            </div>
+            <div class="contact__content-block">
+              <div class="contact__item">
+                <div class="contact__icon"><i class="far fa-envelope"></i></div>
+                <div class="contact__name">Почта</div>
+              </div>
+              <a href="mailto:rodionpyatigroskiy@gmail.com" class="contact__inf">rodionpyatigroskiy@gmail.com</a>
+            </div>
+            <div class="contact__content-block">
+              <div class="contact__item">
+                <div class="contact__icon"><i class="fas fa-map-marker-alt"></i></div>
+                <div class="contact__name">Локация</div>
+              </div>
+              <div class="contact__inf">Челябинск</div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <div class="footer__author-inf">
+            <div class="footer__name">Rodion</div>
+            <div class="footer__job">Frontend developer</div>
+          </div>
+          <ul class="footer__url">
+            <li class="footer__link">
+              <a target="_blank" href="https://github.com/NenadoPL1Z"><i class="fab fa-github"></i></a>
+            </li>
+            <li class="footer__link">
+              <a target="_blank" href="https://vk.com/wwk_1"><i class="fab fa-vk"></i></a>
+            </li>
+            <li class="footer__link">
+              <a target="_blank" href="https://t.me/w1wk1"><i class="fab fa-telegram-plane"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__last-block">Create by Rodion Pyatigroskiy</div>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
